@@ -4,4 +4,5 @@ class Plan < ActiveRecord::Base
   has_one :level
   has_many :skills
   has_one :progression
+  has_many :activities
 end
