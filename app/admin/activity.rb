@@ -1,4 +1,5 @@
 ActiveAdmin.register Activity do
+  permit_params :name, :description
 
 
   # See permitted parameters documentation:
